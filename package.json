@@ -1,0 +1,25 @@
+{
+  "name": "breezingble",
+  "version": "1.0.0",
+  "description": "A sample bluetooth le app based on Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BluetoothLE",
+    "Electron",
+    "Desktop",
+    "App"
+  ],
+  "author": "Navendra Jha",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.0.1",
+    "node-web-bluetooth": "0.0.8"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.2"
+  }
+}
